@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.637);
+    text-decoration: underline;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#Icon_Img_nav{
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+li:hover{
+    color: black;
+    transition: 0.7s;
+}
+
+ul{
+    margin-right: 700px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(189, 189, 189);
+    font-weight: 500;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#main1{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+}
+
+#iPhoneImage{
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+#mainText{
+    margin-top: 10px
+}
+
+#main1Logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    background-color: rgb(232, 232, 232);
+}
+
+#colors1{
+    display: flex;
+    margin-top: 250px;
+}
+
+#red{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(193,22,22);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#blue{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(24, 146, 188);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#black{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30,30,39);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#main2{
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+}
+
+#samsungImage{
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+#main2Text{
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+#main2Logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    background-color: rgb(165, 165, 165);
+}
+
+#colors2{
+    display: flex;
+    margin-top: 250px;
+    margin-right: 20px;
+}
+
+#bordo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(174, 134, 138);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#green{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(126, 167, 160);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#white{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#main3{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(131, 131, 131);
+    display: flex;
+    justify-content: center;
+}
+
+#NokiaImage{
+    height: 500px;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+#main3Text{
+    margin-top: 10px;
+    margin-right: 230px;
+}
+
+#main3Logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    background-color: rgb(131, 131, 131);
+}
+
+#colors3{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+#coal{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(181,181,179);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#fjord{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(130, 206, 214);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#gray{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(198,204,200);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#main4{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+}
+
+
+#XiaomiImage{
+    height: 520px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+#main4Text{
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+#main4Logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    background-color: rgb(100, 100, 100);
+}
+
+#colors4{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+#black2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(74, 74, 99);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#cyan{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(132, 160, 177);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#white2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#end{
+    font-family: Arial;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
